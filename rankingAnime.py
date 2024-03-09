@@ -3,7 +3,7 @@ import os
 from smalltournament import *
 import time
 
-THELIST = os.listdir(r'c:\\Users\\rimuru\\Desktop\\tierlist extended images')
+THELIST = os.listdir(r'tierlist extended images')
 TierList = 0
 SaveFlip = 0
 
@@ -17,8 +17,8 @@ def validation(var):
 def save():
     global TierList
     global SaveFlip
-    open('c:\\users\\rimuru\\desktop\\tierlists\\tierlist1.txt','w').close()
-    TierList = open('c:\\users\\rimuru\\desktop\\tierlists\\tierlist1.txt', 'w')
+    open('tierlist1.txt','w').close()
+    TierList = open('tierlist1.txt', 'w')
     TierList.write("RANKING OF ANIME THAT I'VE SEEN:\n\n\n")
     SaveFlip = 1
 
