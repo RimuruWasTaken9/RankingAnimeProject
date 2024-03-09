@@ -1,7 +1,7 @@
 import random
 import os
 import time
-THELIST = os.listdir(r'c:\\Users\\rimuru\\Desktop\\tierlist extended images')
+THELIST = os.listdir(r'tierlist extended images')
 advance = []
 remain = []
 def getAnime(amount):
