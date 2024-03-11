@@ -10,7 +10,8 @@ The options are:
 4 - put 32 of the anime into a tournament-style elimination  
 5 - save the next program that is run  
 
-in options 1 & 2, if you made a mistake you can edit the list by typing "edit"
+in options 1 & 2, if you made a mistake you can fix and edit the list by typing "edit"
+if you want to exit the program immediately even in the middle of a ranking, enter "0"
 
 rankingAnime.py is the file you need to run, smalltournament is just a module.
 Any tips on shortening or simplifying the code are welcome, as well as any ideas on what else to add.
