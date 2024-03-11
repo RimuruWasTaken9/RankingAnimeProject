@@ -118,7 +118,7 @@ def ranking(length):
 #make a random order every time the program is executed
 
 
-def menu():
+if __name__ == "__main__":
     loopControl = True
     while loopControl:
         print('\nMenu for Listing Anime:\n')
@@ -146,7 +146,6 @@ def menu():
         else:
             print("\nEnter valid input")
 
-menu()
 '''
 notes for what to do: (optional things, since this is complete enough)
 need to format the way ranking looks better
